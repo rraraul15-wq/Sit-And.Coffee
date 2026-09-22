@@ -1,0 +1,21 @@
+
+:root{--bg:#f7f1e8;--paper:#fffdf9;--coffee:#4a3428;--sage:#84927d;--terra:#c97f63;--line:#ded5ca;--muted:#6f6761}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:#2d2926;line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;background:rgba(255,253,249,.97);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;gap:20px}
+.brand{font-weight:800;color:var(--coffee);font-size:1.25rem}.links{display:flex;gap:18px;flex-wrap:wrap}.links a{font-weight:700}
+.hero,.section{padding:58px 0}.hero-grid,.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+h1,h2,h3{color:var(--coffee);line-height:1.15}h1{font-size:clamp(2.5rem,6vw,5rem);margin:.2em 0}h2{font-size:2rem}
+.lead{font-size:1.15rem;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.12em;color:var(--terra);font-weight:800;font-size:.8rem}
+.btn{display:inline-block;background:var(--coffee);color:white;border:0;border-radius:999px;padding:12px 18px;font-weight:800;cursor:pointer;margin:5px 4px 5px 0}
+.btn.alt{background:transparent;color:var(--coffee);border:2px solid var(--coffee)}
+.altbg{background:#eee4d9}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px}.card img,.hero img{width:100%;border-radius:16px}
+.price{color:var(--terra);font-weight:800}.notice{background:#fff6ef;border-left:5px solid var(--terra);padding:14px;border-radius:8px}
+.video{position:relative;padding-top:56.25%;overflow:hidden;border-radius:18px;background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+footer{background:var(--coffee);color:white;padding:28px 0;margin-top:40px}
+.row{display:grid;grid-template-columns:1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+input,select{padding:10px;border:1px solid var(--line);border-radius:8px;width:100%}
+form{display:grid;gap:12px}.badge{background:var(--terra);color:white;border-radius:999px;padding:3px 7px;font-size:.75rem}
+@media(max-width:800px){.hero-grid,.two,.grid{grid-template-columns:1fr}nav{align-items:flex-start;flex-direction:column}}

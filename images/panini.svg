@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<rect width="800" height="520" rx="36" fill="#f3e6d7"/><circle cx="400" cy="205" r="115" fill="#fff" stroke="#4a3428" stroke-width="10"/>
+<path d="M350 210h100v72c0 34-100 34-100 0z" fill="#4a3428"/><path d="M450 235h34c38 0 38 52 0 52h-34" fill="none" stroke="#4a3428" stroke-width="10"/>
+<text x="400" y="400" text-anchor="middle" font-family="Arial" font-size="44" font-weight="700" fill="#4a3428">Panini</text>
+<text x="400" y="447" text-anchor="middle" font-family="Arial" font-size="24" fill="#6f6761">Alimentos</text></svg>
