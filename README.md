@@ -1,4 +1,4 @@
 # Sit & Coffee
-Prototipo académico listo para GitHub Pages.
+Prototipo académico de comercio electrónico.
 
-Versión final actualizada con imágenes IA de cafetería mexicana mediana y variedades de perros.
+Versión final con fotografías IA individuales para los 16 productos del catálogo.
